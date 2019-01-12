@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
+    <ImageTarget name="stone3_grey" size="0.012000 0.007994" />
+    <ImageTarget name="stone2_grey" size="0.012000 0.007994" />
+    <ImageTarget name="stone3" size="0.012000 0.007994" />
+    <ImageTarget name="stone2" size="0.012000 0.007994" />
+    <ImageTarget name="stone1_grey" size="0.012000 0.008031" />
+    <ImageTarget name="stone1" size="0.012000 0.008031" />
     <ImageTarget name="SampleImage" size="0.300000 0.212250" />
   </Tracking>
 </QCARConfig>
