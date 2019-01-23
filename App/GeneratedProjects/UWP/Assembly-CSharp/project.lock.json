@@ -15887,12 +15887,12 @@
   },
   "project": {
     "restore": {
-      "projectUniqueName": "C:\\Users\\Nina\\Documents\\Studies\\GripForce\\SizeWeight_Illusion\\App\\GeneratedProjects\\UWP\\Assembly-CSharp\\Assembly-CSharp.csproj",
+      "projectUniqueName": "C:\\Users\\Nina\\Documents\\Studies\\GripForce\\size-weight-illusion\\App\\GeneratedProjects\\UWP\\Assembly-CSharp\\Assembly-CSharp.csproj",
       "projectName": "Assembly-CSharp",
-      "projectPath": "C:\\Users\\Nina\\Documents\\Studies\\GripForce\\SizeWeight_Illusion\\App\\GeneratedProjects\\UWP\\Assembly-CSharp\\Assembly-CSharp.csproj",
-      "projectJsonPath": "C:\\Users\\Nina\\Documents\\Studies\\GripForce\\SizeWeight_Illusion\\App\\GeneratedProjects\\UWP\\Assembly-CSharp\\project.json",
+      "projectPath": "C:\\Users\\Nina\\Documents\\Studies\\GripForce\\size-weight-illusion\\App\\GeneratedProjects\\UWP\\Assembly-CSharp\\Assembly-CSharp.csproj",
+      "projectJsonPath": "C:\\Users\\Nina\\Documents\\Studies\\GripForce\\size-weight-illusion\\App\\GeneratedProjects\\UWP\\Assembly-CSharp\\project.json",
       "packagesPath": "C:\\Users\\Nina\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Nina\\Documents\\Studies\\GripForce\\SizeWeight_Illusion\\App\\GeneratedProjects\\UWP\\Assembly-CSharp\\obj\\",
+      "outputPath": "C:\\Users\\Nina\\Documents\\Studies\\GripForce\\size-weight-illusion\\App\\GeneratedProjects\\UWP\\Assembly-CSharp\\obj\\",
       "projectStyle": "ProjectJson",
       "configFilePaths": [
         "C:\\Users\\Nina\\AppData\\Roaming\\NuGet\\NuGet.Config",

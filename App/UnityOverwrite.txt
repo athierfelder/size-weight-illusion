@@ -5,31 +5,17 @@
 # Write a line equal to 'overwrite-all' (without quotes) to overwrite everything (preserved accross builds)
 # Write a line equal to 'keep-all' (without quotes) to keep files regardless their modification (preserved accross builds)
 # Default behavior is to never overwrite files
-SizeWeight_Illusion.sln: modified
+SizeWeight_Illusion.sln: 141538F271C800676B6B825158607FB9
 GeneratedProjects\UWP\Assembly-CSharp\project.json: 1D02BC64BAC0D041019673A1C4C51737
 SizeWeight_Illusion\App.cs: B51A45DB39671F34E46BC3CEC8B1590C
 SizeWeight_Illusion\Package.appxmanifest: 1F1E91284C90F217F10E656CA4B8B79F
 SizeWeight_Illusion\project.json: 1D02BC64BAC0D041019673A1C4C51737
-SizeWeight_Illusion\SizeWeight_Illusion.csproj: modified
-SizeWeight_Illusion\SizeWeight_Illusion.csproj.user: modified
+SizeWeight_Illusion\SizeWeight_Illusion.csproj: 5A9C1F4D81FEE85EF0B5FAAB4B7DBC1D
+SizeWeight_Illusion\SizeWeight_Illusion.csproj.user: BEFB8AC4886C4CFDD3C68445D6F19B04
 SizeWeight_Illusion\Assets\SplashScreen.scale-200.png: A85C1D7624B6902CF8CEBD6F0200A826
 SizeWeight_Illusion\Assets\Square150x150Logo.scale-200.png: E02834B4A5DFB97FF8E212C1CACBB084
 SizeWeight_Illusion\Assets\Square44x44Logo.scale-200.png: 6C6EF27184ABE9D870A9D564953775DE
 SizeWeight_Illusion\Assets\Square44x44Logo.targetsize-24_altform-unplated.png: 156637F7B5363E983E7A46D8E533A23D
 SizeWeight_Illusion\Assets\StoreLogo.png: 90BD194CA4A7CFFF3E8B8222229857FB
 SizeWeight_Illusion\Assets\Wide310x150Logo.scale-200.png: C96846A80DF667F87355569CD816192D
-SizeWeight_Illusion\bin\x86\Master\ilc\Assets\SplashScreen.scale-200.png: A85C1D7624B6902CF8CEBD6F0200A826
-SizeWeight_Illusion\bin\x86\Master\ilc\Assets\Square150x150Logo.scale-200.png: E02834B4A5DFB97FF8E212C1CACBB084
-SizeWeight_Illusion\bin\x86\Master\ilc\Assets\Square44x44Logo.scale-200.png: 6C6EF27184ABE9D870A9D564953775DE
-SizeWeight_Illusion\bin\x86\Master\ilc\Assets\Square44x44Logo.targetsize-24_altform-unplated.png: 156637F7B5363E983E7A46D8E533A23D
-SizeWeight_Illusion\bin\x86\Master\ilc\Assets\StoreLogo.png: 90BD194CA4A7CFFF3E8B8222229857FB
-SizeWeight_Illusion\bin\x86\Master\ilc\Assets\Wide310x150Logo.scale-200.png: C96846A80DF667F87355569CD816192D
-SizeWeight_Illusion\obj\x86\Master\SizeWeight_Illusion.csproj.CopyComplete: D41D8CD98F00B204E9800998ECF8427E
-SizeWeight_Illusion\obj\x86\Master\ilc\in\Assets\SplashScreen.scale-200.png: A85C1D7624B6902CF8CEBD6F0200A826
-SizeWeight_Illusion\obj\x86\Master\ilc\in\Assets\Square150x150Logo.scale-200.png: E02834B4A5DFB97FF8E212C1CACBB084
-SizeWeight_Illusion\obj\x86\Master\ilc\in\Assets\Square44x44Logo.scale-200.png: 6C6EF27184ABE9D870A9D564953775DE
-SizeWeight_Illusion\obj\x86\Master\ilc\in\Assets\Square44x44Logo.targetsize-24_altform-unplated.png: 156637F7B5363E983E7A46D8E533A23D
-SizeWeight_Illusion\obj\x86\Master\ilc\in\Assets\StoreLogo.png: 90BD194CA4A7CFFF3E8B8222229857FB
-SizeWeight_Illusion\obj\x86\Master\ilc\in\Assets\Wide310x150Logo.scale-200.png: C96846A80DF667F87355569CD816192D
-SizeWeight_Illusion\obj\x86\Master\ilc\in\Properties\Default.rd.xml: 72EB282657164E79A1C42F6240984826
 SizeWeight_Illusion\Properties\Default.rd.xml: 72EB282657164E79A1C42F6240984826
