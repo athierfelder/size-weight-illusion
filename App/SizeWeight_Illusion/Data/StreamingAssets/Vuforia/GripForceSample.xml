@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
-    <ImageTarget name="qr_small_cube" size="0.032000 0.031771" />
-    <ImageTarget name="qr_middle_cube" size="0.068000 0.068000" />
+    <ImageTarget name="qr_small_cube" size="0.063000 0.062548" />
     <ImageTarget name="qr_big_cube" size="0.128000 0.128000" />
+    <ImageTarget name="qr_middle_cube" size="0.068000 0.067835" />
     <ImageTarget name="stones_square_smallcube" size="0.068000 0.068000" />
     <ImageTarget name="stone3" size="0.012000 0.007994" />
     <ImageTarget name="stone2" size="0.012000 0.007994" />
