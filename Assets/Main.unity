@@ -376,7 +376,7 @@ Mesh:
     vertexCount: 4
     localAABB:
       m_Center: {x: 0, y: 0, z: 0}
-      m_Extent: {x: 0.5, y: 0, z: 0.33308333}
+      m_Extent: {x: 0.5, y: 0, z: 0.49642187}
   m_Shapes:
     vertices: []
     shapes: []
@@ -429,7 +429,7 @@ Mesh:
       format: 0
       dimension: 0
     m_DataSize: 128
-    _typelessdata: 000000bf00000000e689aabe000000000000803f000000000000000000000000000000bf00000000e689aa3e000000000000803f00000000000000000000803f0000003f00000000e689aabe000000000000803f000000000000803f000000000000003f00000000e689aa3e000000000000803f000000000000803f0000803f
+    _typelessdata: 000000bf00000000022bfebe000000000000803f000000000000000000000000000000bf00000000022bfe3e000000000000803f00000000000000000000803f0000003f00000000022bfebe000000000000803f000000000000803f000000000000003f00000000022bfe3e000000000000803f000000000000803f0000803f
   m_CompressedMesh:
     m_Vertices:
       m_NumItems: 0
@@ -874,7 +874,7 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: stones_square_smallcubeMaterial
+  m_Name: qr_middle_cubeMaterial
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -887,7 +887,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: a7e38c6be2944f45b415bfc339790345, type: 3}
+        m_Texture: {fileID: 2800000, guid: b63d790a7b484502a92173a98da828f6, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -910,7 +910,7 @@ Mesh:
     vertexCount: 4
     localAABB:
       m_Center: {x: 0, y: 0, z: 0}
-      m_Extent: {x: 0.5, y: 0, z: 0.334625}
+      m_Extent: {x: 0.5, y: 0, z: 0.5}
   m_Shapes:
     vertices: []
     shapes: []
@@ -963,7 +963,7 @@ Mesh:
       format: 0
       dimension: 0
     m_DataSize: 128
-    _typelessdata: 000000bf00000000f853abbe000000000000803f000000000000000000000000000000bf00000000f853ab3e000000000000803f00000000000000000000803f0000003f00000000f853abbe000000000000803f000000000000803f000000000000003f00000000f853ab3e000000000000803f000000000000803f0000803f
+    _typelessdata: 000000bf00000000000000bf000000000000803f000000000000000000000000000000bf000000000000003f000000000000803f00000000000000000000803f0000003f00000000000000bf000000000000803f000000000000803f000000000000003f000000000000003f000000000000803f000000000000803f0000803f
   m_CompressedMesh:
     m_Vertices:
       m_NumItems: 0
@@ -1117,7 +1117,7 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: bab6fa851cf5a1a4bba3cec5f191cb8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: stones_square_smallcube
+  mTrackableName: qr_middle_cube
   mPreserveChildSize: 0
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/GripForceSample.xml
@@ -1246,7 +1246,7 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: stone1Material
+  m_Name: qr_big_cubeMaterial
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -1259,7 +1259,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 004a724dcdb44eba81f76a6722bc823c, type: 3}
+        m_Texture: {fileID: 2800000, guid: 68e387d74e58472d9efb075bbc417462, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -1501,7 +1501,7 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: stone2Material
+  m_Name: qr_small_cubeMaterial
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -1514,7 +1514,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: edb11c2c1fdf4988b7ec9df32ba988b9, type: 3}
+        m_Texture: {fileID: 2800000, guid: baf5cd113ecc4b31bfce4f090155a4cd, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -1614,15 +1614,15 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: bab6fa851cf5a1a4bba3cec5f191cb8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: stone1
+  mTrackableName: qr_big_cube
   mPreserveChildSize: 0
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/GripForceSample.xml
   mExtendedTracking: 1
-  mAspectRatio: 0.66925
+  mAspectRatio: 1
   mImageTargetType: 0
-  mWidth: 0.12
-  mHeight: 0.08031
+  mWidth: 0.128
+  mHeight: 0.128
 --- !u!4 &1345237695
 Transform:
   m_ObjectHideFlags: 0
@@ -1631,7 +1631,7 @@ Transform:
   m_GameObject: {fileID: 1345237689}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.1, y: 0, z: 0}
-  m_LocalScale: {x: 0.12, y: 0.12, z: 0.12}
+  m_LocalScale: {x: 0.128, y: 0.128, z: 0.128}
   m_Children:
   - {fileID: 123265732}
   - {fileID: 465245389}
@@ -1732,15 +1732,15 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: bab6fa851cf5a1a4bba3cec5f191cb8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: stone2
+  mTrackableName: qr_small_cube
   mPreserveChildSize: 0
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/GripForceSample.xml
   mExtendedTracking: 0
-  mAspectRatio: 0.66616666
+  mAspectRatio: 0.99284375
   mImageTargetType: 0
-  mWidth: 0.12
-  mHeight: 0.07994
+  mWidth: 0.032
+  mHeight: 0.031771
 --- !u!4 &1953415549
 Transform:
   m_ObjectHideFlags: 0
@@ -1749,7 +1749,7 @@ Transform:
   m_GameObject: {fileID: 1953415543}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 0.12, y: 0.12, z: 0.12}
+  m_LocalScale: {x: 0.032, y: 0.032, z: 0.032}
   m_Children:
   - {fileID: 2143030806}
   m_Father: {fileID: 0}
