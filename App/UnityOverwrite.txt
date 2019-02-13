@@ -10,7 +10,7 @@ GeneratedProjects\UWP\Assembly-CSharp\project.json: 1D02BC64BAC0D041019673A1C4C5
 SizeWeight_Illusion\App.cs: B51A45DB39671F34E46BC3CEC8B1590C
 SizeWeight_Illusion\Package.appxmanifest: 1F1E91284C90F217F10E656CA4B8B79F
 SizeWeight_Illusion\project.json: 1D02BC64BAC0D041019673A1C4C51737
-SizeWeight_Illusion\SizeWeight_Illusion.csproj: 6975C7805C18AB1ECE6B4BA4FFD58861
+SizeWeight_Illusion\SizeWeight_Illusion.csproj: 55A53AB433B6C419D6F5914DA8E07F2F
 SizeWeight_Illusion\SizeWeight_Illusion.csproj.user: modified
 SizeWeight_Illusion\Assets\SplashScreen.scale-200.png: A85C1D7624B6902CF8CEBD6F0200A826
 SizeWeight_Illusion\Assets\Square150x150Logo.scale-200.png: E02834B4A5DFB97FF8E212C1CACBB084

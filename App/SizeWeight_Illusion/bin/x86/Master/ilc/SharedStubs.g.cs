@@ -6063,33 +6063,6 @@ namespace McgInterop
 			// Return
 		}
 
-		// Signature, UnityPlayer.__IAppCallbacksPublicNonVirtuals.UnityPause, [fwd] [return] [Mcg.CodeGen.ComHRESULTReturnMarshaller] void__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [out] [retval] [nativebyref] [Mcg.CodeGen.CBoolMarshaller] bool__bool, 
-		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		internal static bool Func_int__bool__<TThis>(
-					global::System.__ComObject __this, 
-					int pause, 
-					int __targetIndex)
-		{
-			// Setup
-			bool __returnValue__retval;
-			sbyte unsafe___returnValue__retval;
-			int unsafe___return__;
-			// Marshalling
-			// Call to native method
-			unsafe___return__ = global::McgInterop.ComCallHelpers.ComCall__HRESULT(
-								__this, 
-								typeof(TThis).TypeHandle, 
-								__targetIndex, 
-								pause, 
-								&(unsafe___returnValue__retval)
-							);
-			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
-			__returnValue__retval = unsafe___returnValue__retval != 0;
-			// Return
-			return __returnValue__retval;
-		}
-
 		// Signature, System.Collections.Generic.IList<System.Type>.GetAt, [fwd] [return] [Mcg.CodeGen.ComHRESULTReturnMarshaller] void__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] uint__unsigned int, [fwd] [out] [retval] [nativebyref] [Mcg.CodeGen.WinRTTypeNameMarshaller] System_Type__Windows_UI_Xaml_Interop__TypeName, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
 		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
@@ -6842,34 +6815,40 @@ namespace McgInterop
 			return value__retval;
 		}
 
-		// Signature, System.Collections.Generic.IDictionary<int,int>.Lookup, [fwd] [return] [Mcg.CodeGen.ComHRESULTReturnMarshaller] void__int, [fwd] [in] [Mcg.CodeGen.BlittableValueMarshaller] int__int, [fwd] [out] [retval] [nativebyref] [Mcg.CodeGen.BlittableValueMarshaller] int__int, 
+		// Signature, System.Collections.Generic.IDictionary<string,bool>.Lookup, [fwd] [return] [Mcg.CodeGen.ComHRESULTReturnMarshaller] void__int, [fwd] [in] [Mcg.CodeGen.HSTRINGMarshaller] string__System.Runtime.InteropServices.HSTRING, [fwd] [out] [retval] [nativebyref] [Mcg.CodeGen.CBoolMarshaller] bool__bool, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
 		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		internal static int Func_int__int__<TThis>(
+		internal static bool Func_string__bool__<TThis>(
 					global::System.__ComObject __this, 
-					int key, 
+					string key, 
 					int __targetIndex)
 		{
 			// Setup
-			int unsafe___value__retval;
-			int __value__retval;
+			global::System.Runtime.InteropServices.HSTRING unsafe_key = default(global::System.Runtime.InteropServices.HSTRING);
+			bool __value__retval;
+			sbyte unsafe___value__retval;
 			int unsafe___return__;
 			// Marshalling
-			// Call to native method
-			unsafe___return__ = global::McgInterop.ComCallHelpers.ComCall__HRESULT(
-								__this, 
-								typeof(TThis).TypeHandle, 
-								__targetIndex, 
-								key, 
-								&(unsafe___value__retval)
-							);
-			global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
-			__value__retval = unsafe___value__retval;
+			fixed (char* pBuffer_key = key)
+			{
+				global::System.Runtime.InteropServices.HSTRING_HEADER hstring_header_key;
+				global::System.Runtime.InteropServices.McgMarshal.StringToHStringReference(pBuffer_key, key, &(hstring_header_key), &(unsafe_key));
+				// Call to native method
+				unsafe___return__ = global::McgInterop.ComCallHelpers.ComCall__HRESULT(
+									__this, 
+									typeof(TThis).TypeHandle, 
+									__targetIndex, 
+									unsafe_key, 
+									&(unsafe___value__retval)
+								);
+				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
+				__value__retval = unsafe___value__retval != 0;
+			}
 			// Return
 			return __value__retval;
 		}
 
-		// Signature, System.Collections.Generic.IReadOnlyDictionary<int,int>.Split, [fwd] [return] [Mcg.CodeGen.ComHRESULTReturnMarshaller] void__int, [fwd] [out] [managedbyref] [nativebyref] [GenericTypeMarshaller]  -> T, [fwd] [out] [managedbyref] [nativebyref] [GenericTypeMarshaller]  -> T, 
+		// Signature, System.Collections.Generic.IReadOnlyDictionary<string,bool>.Split, [fwd] [return] [Mcg.CodeGen.ComHRESULTReturnMarshaller] void__int, [fwd] [out] [managedbyref] [nativebyref] [GenericTypeMarshaller]  -> T, [fwd] [out] [managedbyref] [nativebyref] [GenericTypeMarshaller]  -> T, 
 		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
 		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
 		internal static void Proc_out_TArg0__out_TArg1__<TThis, TArg0, TArg1>(
@@ -6912,39 +6891,6 @@ namespace McgInterop
 				global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_TArg0__arg)));
 				global::System.Runtime.InteropServices.McgMarshal.ComSafeRelease(new global::System.IntPtr(((void*)unsafe_TArg1__arg)));
 			}
-		}
-
-		// Signature, System.Collections.Generic.IDictionary<string,bool>.Lookup, [fwd] [return] [Mcg.CodeGen.ComHRESULTReturnMarshaller] void__int, [fwd] [in] [Mcg.CodeGen.HSTRINGMarshaller] string__System.Runtime.InteropServices.HSTRING, [fwd] [out] [retval] [nativebyref] [Mcg.CodeGen.CBoolMarshaller] bool__bool, 
-		[global::System.Runtime.CompilerServices.MethodImpl(global::System.Runtime.CompilerServices.MethodImplOptions.NoInlining)]
-		[global::System.Runtime.InteropServices.McgGeneratedMarshallingCode]
-		internal static bool Func_string__bool__<TThis>(
-					global::System.__ComObject __this, 
-					string key, 
-					int __targetIndex)
-		{
-			// Setup
-			global::System.Runtime.InteropServices.HSTRING unsafe_key = default(global::System.Runtime.InteropServices.HSTRING);
-			bool __value__retval;
-			sbyte unsafe___value__retval;
-			int unsafe___return__;
-			// Marshalling
-			fixed (char* pBuffer_key = key)
-			{
-				global::System.Runtime.InteropServices.HSTRING_HEADER hstring_header_key;
-				global::System.Runtime.InteropServices.McgMarshal.StringToHStringReference(pBuffer_key, key, &(hstring_header_key), &(unsafe_key));
-				// Call to native method
-				unsafe___return__ = global::McgInterop.ComCallHelpers.ComCall__HRESULT(
-									__this, 
-									typeof(TThis).TypeHandle, 
-									__targetIndex, 
-									unsafe_key, 
-									&(unsafe___value__retval)
-								);
-				global::System.Runtime.InteropServices.DebugAnnotations.PreviousCallContainsUserCode();
-				__value__retval = unsafe___value__retval != 0;
-			}
-			// Return
-			return __value__retval;
 		}
 
 		// Signature, Windows.Storage.Streams.IDataWriterFactory.CreateDataWriter, [fwd] [return] [Mcg.CodeGen.ComHRESULTReturnMarshaller] void__int, [fwd] [in] [GenericTypeMarshaller]  -> T, [fwd] [out] [retval] [nativebyref] [Mcg.CodeGen.BlittableValueMarshaller] System_IntPtr____w64 int, 

@@ -85,9 +85,6 @@
     <AppxPackagedFile Include="C:\Users\Nina\Documents\Studies\GripForce\size-weight-illusion\App\SizeWeight_Illusion\bin\x86\Master\ilc\Data\resources.assets">
       <PackagePath>Data\resources.assets</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\Nina\Documents\Studies\GripForce\size-weight-illusion\App\SizeWeight_Illusion\bin\x86\Master\ilc\Data\resources.assets.resS">
-      <PackagePath>Data\resources.assets.resS</PackagePath>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\Nina\Documents\Studies\GripForce\size-weight-illusion\App\SizeWeight_Illusion\bin\x86\Master\ilc\Data\Resources\unity default resources">
       <PackagePath>Data\Resources\unity default resources</PackagePath>
     </AppxPackagedFile>
