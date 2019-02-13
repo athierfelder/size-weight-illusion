@@ -2349,12 +2349,6 @@ namespace UnityEngine
 		public float m_Distance;
 	}
 
-	[global::System.Runtime.InteropServices.McgRedirectedType("UnityEngine.LayerMask,UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null")]
-	public unsafe partial struct LayerMask__UnityEngine_CoreModule
-	{
-		public int m_Mask;
-	}
-
 	[global::System.Runtime.InteropServices.McgRedirectedType("UnityEngine.Matrix4x4,UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null")]
 	public unsafe partial struct Matrix4x4__UnityEngine_CoreModule
 	{
@@ -2376,15 +2370,6 @@ namespace UnityEngine
 		public float m33;
 	}
 
-	[global::System.Runtime.InteropServices.McgRedirectedType("UnityEngine.Color,UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null")]
-	public unsafe partial struct Color__UnityEngine_CoreModule
-	{
-		public float r;
-		public float g;
-		public float b;
-		public float a;
-	}
-
 	[global::System.Runtime.InteropServices.StructLayout(global::System.Runtime.InteropServices.LayoutKind.Explicit, Size=4)]
 	[global::System.Runtime.InteropServices.McgRedirectedType("UnityEngine.Color32,UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null")]
 	public unsafe partial struct Color32__UnityEngine_CoreModule
@@ -2399,6 +2384,27 @@ namespace UnityEngine
 		public byte b;
 		[global::System.Runtime.InteropServices.FieldOffset(3)]
 		public byte a;
+	}
+
+	[global::System.Runtime.InteropServices.McgRedirectedType("UnityEngine.PropertyName,UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null")]
+	public unsafe partial struct PropertyName__UnityEngine_CoreModule
+	{
+		public int id;
+	}
+
+	[global::System.Runtime.InteropServices.McgRedirectedType("UnityEngine.LayerMask,UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null")]
+	public unsafe partial struct LayerMask__UnityEngine_CoreModule
+	{
+		public int m_Mask;
+	}
+
+	[global::System.Runtime.InteropServices.McgRedirectedType("UnityEngine.Color,UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null")]
+	public unsafe partial struct Color__UnityEngine_CoreModule
+	{
+		public float r;
+		public float g;
+		public float b;
+		public float a;
 	}
 
 	[global::System.Runtime.InteropServices.McgRedirectedType("UnityEngine.LightmapBakeType,UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null")]
@@ -2471,12 +2477,6 @@ namespace UnityEngine
 		public global::UnityEngine.LightmapBakeType__UnityEngine_CoreModule lightmapBakeType;
 		public global::UnityEngine.MixedLightingMode__UnityEngine_CoreModule mixedLightingMode;
 		public int isBaked;
-	}
-
-	[global::System.Runtime.InteropServices.McgRedirectedType("UnityEngine.PropertyName,UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null")]
-	public unsafe partial struct PropertyName__UnityEngine_CoreModule
-	{
-		public int id;
 	}
 
 	[global::System.Runtime.InteropServices.McgRedirectedType("UnityEngine.ParticleSystemCurveMode,UnityEngine.ParticleSystemModule, Version=0.0.0.0, Culture=neutral, PublicKe" +
