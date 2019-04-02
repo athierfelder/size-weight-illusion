@@ -534,7 +534,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: e106645f46550d54bacf6c82811c99e6, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1121,11 +1121,11 @@ MonoBehaviour:
   mPreserveChildSize: 0
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/GripForceSample.xml
-  mExtendedTracking: 1
+  mExtendedTracking: 0
   mAspectRatio: 0.9978947
   mImageTargetType: 0
   mWidth: 0.067
-  mHeight: 0.066859
+  mHeight: 0.06685895
 --- !u!4 &844329370
 Transform:
   m_ObjectHideFlags: 0
@@ -1186,7 +1186,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 30d693ff62c571241b431ef4e206b09a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1456,7 +1456,7 @@ MeshRenderer:
   m_LightProbeUsage: 1
   m_ReflectionProbeUsage: 1
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 64165286eff98134b82f4a6081c52d0f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1834,11 +1834,11 @@ MonoBehaviour:
   mPreserveChildSize: 0
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/GripForceSample.xml
-  mExtendedTracking: 1
+  mExtendedTracking: 0
   mAspectRatio: 0.9978843
   mImageTargetType: 0
   mWidth: 0.061
-  mHeight: 0.060871
+  mHeight: 0.06087094
 --- !u!4 &1953415549
 Transform:
   m_ObjectHideFlags: 0
