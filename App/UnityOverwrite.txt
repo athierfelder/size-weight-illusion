@@ -8,7 +8,7 @@
 SizeWeight_Illusion.sln: modified
 GeneratedProjects\UWP\Assembly-CSharp\project.json: 1D02BC64BAC0D041019673A1C4C51737
 SizeWeight_Illusion\App.cs: B51A45DB39671F34E46BC3CEC8B1590C
-SizeWeight_Illusion\Package.appxmanifest: 1F1E91284C90F217F10E656CA4B8B79F
+SizeWeight_Illusion\Package.appxmanifest: 48B674A07847153465585C48E9C1DA87
 SizeWeight_Illusion\project.json: 1D02BC64BAC0D041019673A1C4C51737
 SizeWeight_Illusion\SizeWeight_Illusion.csproj: modified
 SizeWeight_Illusion\SizeWeight_Illusion.csproj.user: modified
