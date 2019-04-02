@@ -376,7 +376,7 @@ Mesh:
     vertexCount: 4
     localAABB:
       m_Center: {x: 0, y: 0, z: 0}
-      m_Extent: {x: 0.5, y: 0, z: 0.49641266}
+      m_Extent: {x: 0.5, y: 0, z: 0.49894214}
   m_Shapes:
     vertices: []
     shapes: []
@@ -429,7 +429,7 @@ Mesh:
       format: 0
       dimension: 0
     m_DataSize: 128
-    _typelessdata: 000000bf00000000cd29febe00000000ffff7f3f000000000000000000000000000000bf00000000cd29fe3e00000000ffff7f3f00000000000000000000803f0000003f00000000cd29febe00000000ffff7f3f000000000000803f000000000000003f00000000cd29fe3e00000000ffff7f3f000000000000803f0000803f
+    _typelessdata: 000000bf000000005875ffbe000000000000803f000000000000000000000000000000bf000000005875ff3e000000000000803f00000000000000000000803f0000003f000000005875ffbe000000000000803f000000000000803f000000000000003f000000005875ff3e000000000000803f000000000000803f0000803f
   m_CompressedMesh:
     m_Vertices:
       m_NumItems: 0
@@ -514,8 +514,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 325007804}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.02, y: -0.62, z: 0}
-  m_LocalScale: {x: 1.23, y: 1.23, z: 1.23}
+  m_LocalPosition: {x: -0.02, y: -0.65, z: 0}
+  m_LocalScale: {x: 1.28, y: 1.28, z: 1.28}
   m_Children: []
   m_Father: {fileID: 1345237695}
   m_RootOrder: 0
@@ -638,7 +638,7 @@ Mesh:
     vertexCount: 4
     localAABB:
       m_Center: {x: 0, y: 0, z: 0}
-      m_Extent: {x: 0.5, y: 0, z: 0.49878675}
+      m_Extent: {x: 0.5, y: 0, z: 0.49894735}
   m_Shapes:
     vertices: []
     shapes: []
@@ -691,7 +691,7 @@ Mesh:
       format: 0
       dimension: 0
     m_DataSize: 128
-    _typelessdata: 000000bf00000000fa60ffbe000000000000803f000000000000000000000000000000bf00000000fa60ff3e000000000000803f00000000000000000000803f0000003f00000000fa60ffbe000000000000803f000000000000803f000000000000003f00000000fa60ff3e000000000000803f000000000000803f0000803f
+    _typelessdata: 000000bf000000000776ffbe000000000000803f000000000000000000000000000000bf000000000776ff3e000000000000803f00000000000000000000803f0000003f000000000776ffbe000000000000803f000000000000803f000000000000003f000000000776ff3e000000000000803f000000000000803f0000803f
   m_CompressedMesh:
     m_Vertices:
       m_NumItems: 0
@@ -874,7 +874,7 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: qr_middle_cubeMaterial
+  m_Name: qr_middle_cube_frameMaterial
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -887,7 +887,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 8bef879f9ae0448cb5d6e54ab1cc8a42, type: 3}
+        m_Texture: {fileID: 2800000, guid: 5f5ef4686a8145c991f6a512fe051869, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -1117,15 +1117,15 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: bab6fa851cf5a1a4bba3cec5f191cb8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: qr_middle_cube
+  mTrackableName: qr_middle_cube_frame
   mPreserveChildSize: 0
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/GripForceSample.xml
   mExtendedTracking: 1
-  mAspectRatio: 0.9975735
+  mAspectRatio: 0.9978947
   mImageTargetType: 0
-  mWidth: 0.068
-  mHeight: 0.067835
+  mWidth: 0.067
+  mHeight: 0.066859
 --- !u!4 &844329370
 Transform:
   m_ObjectHideFlags: 0
@@ -1134,7 +1134,7 @@ Transform:
   m_GameObject: {fileID: 844329364}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0.3, y: 0, z: 0}
-  m_LocalScale: {x: 0.068, y: 0.068, z: 0.068}
+  m_LocalScale: {x: 0.067, y: 0.067, z: 0.067}
   m_Children:
   - {fileID: 28065502}
   - {fileID: 1120068576}
@@ -1166,8 +1166,8 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 864825017}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: -0.4, z: -0.8}
-  m_LocalScale: {x: 2.67, y: 2.67, z: 2.67}
+  m_LocalPosition: {x: 0, y: -0.4, z: -0.6}
+  m_LocalScale: {x: 2.54, y: 2.54, z: 2.54}
   m_Children: []
   m_Father: {fileID: 1953415549}
   m_RootOrder: 0
@@ -1330,7 +1330,7 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: qr_big_cubeMaterial
+  m_Name: qr_big_cube_frameMaterial
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -1343,7 +1343,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: fe3a7d3969ef41a499e7b4d1ef7e9486, type: 3}
+        m_Texture: {fileID: 2800000, guid: 911dfcd37c48420c868d4f7c11b418dd, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -1599,7 +1599,7 @@ Material:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
-  m_Name: qr_small_cubeMaterial
+  m_Name: qr_small_cube_frameMaterial
   m_Shader: {fileID: 10752, guid: 0000000000000000f000000000000000, type: 0}
   m_ShaderKeywords: 
   m_LightmapFlags: 5
@@ -1612,7 +1612,7 @@ Material:
     serializedVersion: 3
     m_TexEnvs:
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 2a03c980ce354be4af0b996f17648563, type: 3}
+        m_Texture: {fileID: 2800000, guid: 7a23da8d66164fb2b4f375c8eb2cd175, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats: []
@@ -1712,15 +1712,15 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: bab6fa851cf5a1a4bba3cec5f191cb8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: qr_big_cube
+  mTrackableName: qr_big_cube_frame
   mPreserveChildSize: 0
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/GripForceSample.xml
   mExtendedTracking: 1
   mAspectRatio: 1
   mImageTargetType: 0
-  mWidth: 0.128
-  mHeight: 0.128
+  mWidth: 0.125
+  mHeight: 0.125
 --- !u!4 &1345237695
 Transform:
   m_ObjectHideFlags: 0
@@ -1729,7 +1729,7 @@ Transform:
   m_GameObject: {fileID: 1345237689}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0.3, y: 0, z: 0}
-  m_LocalScale: {x: 0.128, y: 0.128, z: 0.128}
+  m_LocalScale: {x: 0.125, y: 0.125, z: 0.125}
   m_Children:
   - {fileID: 325007805}
   - {fileID: 123265732}
@@ -1830,15 +1830,15 @@ MonoBehaviour:
   m_Script: {fileID: -1631628248, guid: bab6fa851cf5a1a4bba3cec5f191cb8e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mTrackableName: qr_small_cube
+  mTrackableName: qr_small_cube_frame
   mPreserveChildSize: 0
   mInitializedInEditor: 1
   mDataSetPath: Vuforia/GripForceSample.xml
   mExtendedTracking: 1
-  mAspectRatio: 0.9928253
+  mAspectRatio: 0.9978843
   mImageTargetType: 0
-  mWidth: 0.063
-  mHeight: 0.062548
+  mWidth: 0.061
+  mHeight: 0.060871
 --- !u!4 &1953415549
 Transform:
   m_ObjectHideFlags: 0
@@ -1847,7 +1847,7 @@ Transform:
   m_GameObject: {fileID: 1953415543}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -0, y: 0, z: 0}
-  m_LocalScale: {x: 0.063, y: 0.063, z: 0.063}
+  m_LocalScale: {x: 0.061, y: 0.061, z: 0.061}
   m_Children:
   - {fileID: 864825018}
   - {fileID: 2143030806}
