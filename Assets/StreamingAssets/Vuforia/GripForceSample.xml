@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <QCARConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="qcar_config.xsd">
   <Tracking>
+    <ImageTarget name="qr_small" size="0.006000 0.006004" />
+    <ImageTarget name="qr_middle" size="0.095000 0.095000" />
+    <ImageTarget name="qr_big" size="0.155000 0.155000" />
     <ImageTarget name="qr_middle_cube_frame" size="0.066500 0.066360" />
     <ImageTarget name="qr_small_cube_frame" size="0.060500 0.060372" />
     <ImageTarget name="qr_big_cube_frame" size="0.124000 0.124000" />
-    <ImageTarget name="qr_small_cube" size="0.063000 0.062548" />
-    <ImageTarget name="qr_big_cube" size="0.128000 0.128000" />
-    <ImageTarget name="qr_middle_cube" size="0.068000 0.067835" />
   </Tracking>
 </QCARConfig>
