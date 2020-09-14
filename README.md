@@ -4,4 +4,4 @@ This repository contains the Unity project developed at the Chair of Human Movem
 
 
 
-In order to overlay the real cubes with the holographic cube, neutral print-outs on the front side of the cubes were used as a trackable image. 
+In order to overlay the real cubes with the holographic cube, neutral print-outs on the front side of the cubes were used as a trackable image. The corresponding package containing the images for the Vuforia Engine can be found in the folder size-weight-illusion/Assets/TargetImages.
