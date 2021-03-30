@@ -7,3 +7,5 @@ The size–weight illusion (SWI) describes the experience that small objects fee
 In this study, two physical cubes of unequal volume were used, i.e. a _small cube_ and a _large cube_. The manipulation consisted of a _holographic cube_ of the same size as the _large cube_ that was projected on top of the physical cubes. In both cases, the physical cubes were visible below the _holographic cube_. Subjects had to lift both cubes in several trials and rate their heaviness indicating a self-chosen number. Additionally, the fingertip forces were measured.
 
 In order to overlay the physical cubes with the holographic cube, trackable images inspired by QR-codes were placed on the front side of the cubes as input for the Vuforia Engine.
+
+You can find the corresponding paper [here](https://link.springer.com/article/10.1007/s10055-021-00508-3).
